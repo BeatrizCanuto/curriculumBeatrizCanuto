@@ -1,0 +1,78 @@
+#inicio {
+    background-image: url("https://i.imgur.com/Q4u8385.gif");
+    height: 700px;
+    margin-top: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.animanome {
+    display: flex;
+}
+
+.animanome .static-txt {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    font-size: 45px;
+    font-weight: "";
+}
+
+.animanome .dynamic-txts {
+    margin-left: 0px;
+    height: 80px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    color: rgb(238, 238, 240);
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 110%;
+    width: 100%;
+    background: #000000;
+    border-left: 5px solid #ffffff;
+    animation: typing 3s steps(25) infinite;
+}
+
+@keyframes typing {
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .animanome {
+        text-align: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,33 @@
+.laranja {
+    color: #DF8B57
+}
+
+.azul {
+    color: #739D9F
+}
+
+.verde {
+    color: #9AC495
+}
+
+.vermelho {
+    color: #A44C4C
+}
+
+.amarelo {
+    color: #D8B14D;
+}
+
+.nomegrande {
+    font-size: 25px;
+    font-weight: 600;
+    color: #B29B83;
+}
+
+.nomepequeno {
+    font-size: 20px;
+}
+
+.btn:hover {
+    color: #B29B83;
+}
