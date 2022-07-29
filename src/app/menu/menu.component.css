@@ -1,33 +1,37 @@
-.laranja {
-    color: #DF8B57
-}
+    .navbar {
+        overflow: hidden;
+    }
 
-.azul {
-    color: #739D9F
-}
+    .laranja {
+        color: #DF8B57
+    }
 
-.verde {
-    color: #9AC495
-}
+    .azul {
+        color: #739D9F
+    }
 
-.vermelho {
-    color: #A44C4C
-}
+    .verde {
+        color: #9AC495
+    }
 
-.amarelo {
-    color: #D8B14D;
-}
+    .vermelho {
+        color: #A44C4C
+    }
 
-.nomegrande {
-    font-size: 25px;
-    font-weight: 600;
-    color: #B29B83;
-}
+    .amarelo {
+        color: #D8B14D;
+    }
 
-.nomepequeno {
-    font-size: 20px;
-}
+    .nomegrande {
+        font-size: 25px;
+        font-weight: 600;
+        color: #B29B83;
+    }
 
-.btn:hover {
-    color: #B29B83;
-}
+    .nomepequeno {
+        font-size: 20px;
+    }
+
+    .btn:hover {
+        color: #B29B83;
+    }

@@ -1,14 +1,14 @@
-.azul {
-    color: #739D9F
-}
+    .azul {
+        color: #739D9F
+    }
 
-.hover-zoom:hover {
-    zoom: 90%;
-    align-items: center;
-}
+    .indent {
+        text-indent: 40px;
+        text-align: justify;
+        font-size: 20px;
+    }
 
-.indent {
-    text-indent: 40px;
-    text-align: justify;
-    font-size: 20px;
-}
+    .borda {
+        border: 3px solid;
+        border-color: #739D9F;
+    }

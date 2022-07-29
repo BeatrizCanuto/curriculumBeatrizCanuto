@@ -1,11 +1,3 @@
-.btn:hover {
-    background-color: #d09570;
-}
-
-.btn {
-    background-color: #DF8B57
-}
-
 .laranja {
     color: #DF8B57
 }
@@ -20,11 +12,6 @@
 
 .section-title {
     margin-bottom: 60px;
-}
-
-.section-title p {
-    color: #777;
-    font-size: 16px;
 }
 
 .section-title h4 {
@@ -84,8 +71,8 @@ ul.timeline-list li {
 }
 
 .timeline_content {
-    border: 2px solid #DF8B57;
-    background-color: #fff
+    border: 3px solid #DF8B57;
+    background-color: #fff;
 }
 
 ul.timeline-list li .timeline_content {
