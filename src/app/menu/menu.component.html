@@ -23,10 +23,83 @@
                     <a class="nav-link vermelho btn " onclick="window.location.href='#competencias' ">Competências</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link amarelo btn " data-toggle="modal" data-target="#contato" type="submit">Contato</a>
+                    <a class="nav-link amarelo btn "  data-bs-toggle="modal" data-bs-target="#modalContato" type="submit">Contato</a>
                 </li>
 
             </ul>
         </div>
     </div>
 </nav>
+
+
+
+<!-- Modal -->
+<div class="modal fade " id="modalContato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header ">
+          <h5 class="modal-title title align-content-center" id="exampleModalLabel">Entre em contato</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+        <div class="row">
+
+
+        <div class="col-6 m-4">
+
+        <section class="">
+
+          <form class="contact-form row">
+             <div class="form-field col-lg-6">
+                <input id="name" class="input-text js-input" type="text" required>
+                <label class="label" for="name">Nome</label>
+             </div>
+             <div class="form-field col-lg-6 ">
+                <input id="email" class="input-text js-input" type="email" required>
+                <label class="label" for="email">E-mail</label>
+             </div>
+
+             <div class="form-field col-lg-12">
+                <input id="message" class="input-text js-input" type="text" required>
+                <label class="label" for="message">Mensagem</label>
+             </div>
+             <div class="form-field col-lg-12">
+                <input class="submit-btn" type="submit" value="Enviar">
+             </div>
+          </form>
+
+       </section>
+      </div>
+
+      <div class="col-4">
+        <section class="align-content-lg-center contato">
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">São Paulo, SP</span></i></li>
+
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="https://contate.me/BeatrizCanuto" title="Give me a call">(+55) 99203-0573</a></span></i></li>
+
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:contatobeatrizcanuto@gmail.com" title="Send me an email">contatobeatrizcanuto@gmail.com</a></span></i></li>
+
+        </ul>
+
+        <hr>
+        <ul class="social-media-list">
+          <li><a href="https://github.com/BeatrizCanuto" target="_blank" class="contact-icon">
+            <i class="fa fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="https://www.linkedin.com/in/beatrizcanuto/" target="_blank" class="contact-icon">
+            <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="https://contate.me/BeatrizCanuto" target="_blank" class="contact-icon">
+            <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+          </li>
+
+        </ul>
+        <hr>
+      </section>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+

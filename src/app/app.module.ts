@@ -14,7 +14,7 @@ import { BiografiaComponent } from './biografia/biografia.component';
 import { ProjetosComponent } from './projetos/projetos.component';
 import { TecnologiasComponent } from './tecnologias/tecnologias.component';
 import { CompetenciasComponent } from './competencias/competencias.component';
-import { ContatoComponent } from './contato/contato.component';
+
 
 
 @NgModule({
@@ -26,8 +26,8 @@ import { ContatoComponent } from './contato/contato.component';
     BiografiaComponent,
     ProjetosComponent,
     TecnologiasComponent,
-    CompetenciasComponent,
-    ContatoComponent
+    CompetenciasComponent
+
 
   ],
   imports: [

@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .card {
+  position: relative;
+  cursor: pointer;
+  border: 0px solid;
+}
+
+.container .card .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container .card .face.face1 {
+  position: relative;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+  border-radius: 5%;
+}
+
+.container .card:hover .face.face1 {
+  background: #ffffff;
+  transform: translateY(0);
+}
+
+.container .card .face.face1 .content {
+  transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .card .face.face1 .content img {
+  max-width: 300px;
+  align-items: center;
+}
+
+
+
+.container .card .face.face2 {
+  position: relative;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transform: translateY(-100px);
+  border: 3px solid #9AC495;
+  border-radius: 5%;
+  color: #000000;
+}
+
+.container .card:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.container .card .face.face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+  border-radius: 5%;
+}
+
+.container .card .face.face2 .content a:hover {
+  background: #333;
+  color: #ffffff;
+  border-radius: 5%;
+}
+p{
+  text-indent: 40px;
+  text-align: justify;
+}
+.verde {
+  color: #9AC495
+}

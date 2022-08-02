@@ -1,1 +1,152 @@
-<p>competencias works!</p>
+
+<div class="col-xl-8 mx-auto text-center p-5 m-5">
+  <div class="section-title ">
+      <h3 class="display-1 vermelho"id="competencias">Competências</h3>
+
+  </div>
+</div>
+<div class="container-fluid" *ngIf="getScreenWidth > 1050">
+
+  <section class="py-5" >
+    <div id="scene">
+      <div id="left-zone">
+        <ul class="list">
+          <li class="item">
+            <input type="radio" id="radio_The garden" name="basic_carousel" value="The garden" checked="checked" />
+            <label class="label_strawberry" for="radio_The garden">Arquitetura
+              de Software (MVC)</label>
+            <div class="content content_strawberry"><span class="picto"></span>
+              <h1>Arquitetura de Software (MVC)</h1>
+              <p>Conhecimento em MVC, Model-View-Controller como padrão de arquitetura de software.</p>
+            </div>
+          </li>
+          <li class="item">
+            <input type="radio" id="radio_A banana" name="basic_carousel" value="A banana" />
+            <label class="label_banana" for="radio_A banana">Git
+              Flow/Fluxo Git</label>
+            <div class="content content_banana"><span class="picto"></span>
+              <h1>Git Flow/Fluxo Git</h1>
+              <p>Conhecimento em Git Flow, onde utilizo do modelo para efetuar versionamento utilizando de ramificações
+                do projeto. Tendo támbem experiência junto de equipe de desenvolvimento.</p>
+            </div>
+          </li>
+          <li class="item">
+            <input type="radio" id="radio_The apple" name="basic_carousel" value="The apple" />
+            <label class="label_apple" for="radio_The apple">Postman/Insomnia</label>
+            <div class="content content_apple"><span class="picto"></span>
+              <h1>Postman/Insomnia</h1>
+              <p>Conhecimento em Postman/Insomnia para executar testes no Backend de um projeto, antes que de fato possa
+                dar continuidade ao projeto.</p>
+            </div>
+          </li>
+          <li class="item">
+            <input type="radio" id="radio_The orange" name="basic_carousel" value="The orange" />
+            <label class="label_orange" for="radio_The orange">Criação
+              e Consumo de API Rest</label>
+            <div class="content content_orange"><span class="picto"></span>
+              <h1>Criação e consumo de API Rest</h1>
+              <p>Criação de API Rest por meio de Spring Boot, utilizando modelo MVC e linguagem Java, criação de CRUD
+                completa. Consumo de API por meio de Angular para efetuar a ligação do Backend com o Frontend.</p>
+            </div>
+          </li>
+          <li class="item">
+            <input type="radio" id="radio_The teste1" name="basic_carousel" value="The teste1" />
+            <label class="label_teste1" for="radio_The teste1">Metodologia Agil - Scrum</label>
+            <div class="content content_teste1"><span class="picto"></span>
+              <h1>Metodologia Agil - Scrum</h1>
+              <p>Conhecimento em Scrum - Utilizando principalmente de MVP para entregas constante a clientes, melhor
+                gestão do projeto e experiência em trabalho em equipe.</p>
+            </div>
+          </li>
+          <li class="item">
+            <input type="radio" id="radio_The teste2" name="basic_carousel" value="The teste2" />
+            <label class="label_teste2" for="radio_The teste2">Deploy Heroku & Netlify</label>
+            <div class="content content_teste2"><span class="picto"></span>
+              <h1>Deploy Heroku & Netlify</h1>
+              <p>Executado deploy de Backend em Heroku. <br> Executado deploy de Frontend em Netlify.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="middle-border"></div>
+      <div id="right-zone"></div>
+    </div>
+  </section>
+</div>
+
+<div class="container-fluid" *ngIf="getScreenWidth <= 1050">
+
+
+  <div class="row">
+
+    <div class="col-md-12">
+
+      <div class="card-group">
+        <div class="card mx-3 my-5 rounded">
+          <img src="https://i.imgur.com/htdiDyE.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Arquitetura de Software (MVC)</h5>
+            <h6 class="card-text">Conhecimento em MVC, Model-View-Controller como padrão de arquitetura de software.</h6>
+
+          </div>
+        </div>
+        <div class="card mx-3 my-5 rounded">
+          <img src="https://i.imgur.com/m2LCpjt.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Git Flow/Fluxo Git</h5>
+            <h6 class="card-text">Conhecimento em Git Flow, onde utilizo do modelo para efetuar versionamento utilizando de ramificações
+              do projeto. Tendo támbem experiência junto de equipe de desenvolvimento.</h6>
+
+          </div>
+        </div>
+        <div class="card mx-3 my-5 rounded">
+          <img src="https://i.imgur.com/AJcZJXR.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Postman/Insomnia</h5>
+            <h6 class="card-text">Conhecimento em Postman/Insomnia para executar testes no Backend de um projeto, antes que de fato possa
+              dar continuidade ao projeto.</h6>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="card-group pb-5">
+    <div class="card mx-3 my-5 rounded">
+      <img src="https://i.imgur.com/ljKRy0K.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Criação e consumo de API Rest</h5>
+        <h6 class="card-text">Criação de API Rest por meio de Spring Boot, utilizando modelo MVC e linguagem Java, criação de CRUD
+          completa. Consumo de API por meio de Angular para efetuar a ligação do Backend com o Frontend.</h6>
+
+      </div>
+    </div>
+    <div class="card mx-3 my-5 rounded">
+      <img src="https://i.imgur.com/QIiLrFa.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Metodologia Agil - Scrum</h5>
+        <h6 class="card-text">Conhecimento em Scrum - Utilizando principalmente de MVP para entregas constante a clientes, melhor
+          gestão do projeto e experiência em trabalho em equipe.</h6>
+
+      </div>
+    </div>
+    <div class="card mx-3 my-5 rounded">
+      <img src="https://i.imgur.com/yBQgvxg.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Deploy Heroku & Netlify</h5>
+        <h6 class="card-text">Executado deploy de Backend em Heroku. <br> Executado deploy de Frontend em Netlify.</h6>
+
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
