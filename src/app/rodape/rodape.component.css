@@ -15,10 +15,16 @@ ul.social-network li {
     padding: 10px;
 }
 
-.fa-github-square:hover {
+.fa-github:hover {
     color: rgb(94, 94, 94);
 }
 
-.fa-linkedin-square:hover {
+.fa-linkedin:hover {
     color: #0072b1;
+}
+.fa-whatsapp:hover {
+  color: #3f8d13;
+}
+.fa-envelope:hover {
+  color: #d12121;
 }
